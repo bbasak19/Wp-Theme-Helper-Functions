@@ -48,27 +48,7 @@ class GenericAdminListTable extends WP_List_Table {
 
 
 /*
-new DynamicAdminMenuBuilder([
-    [
-        'page_title' => 'Restaurant Admin',
-        'menu_title' => 'Restaurants',
-        'menu_slug'  => 'restaurant-admin',
-        'capability' => 'manage_options',
-        'callback'   => function () {
-            echo '<h1>Welcome to the Restaurant Panel</h1>';
-        },
-        'icon_url'   => 'dashicons-store',
-        'position'   => 25
-    ],
-    [
-        'page_title'  => 'Pending Approvals',
-        'menu_title'  => 'Pending Restaurants',
-        'menu_slug'   => 'pending-restaurants',
-        'parent_slug' => 'restaurant-admin',
-        'capability'  => 'manage_options',
-        'callback'    => 'render_pending_restaurants_table'
-    ]
-]);
+
 
 //callback function
 function render_pending_restaurants_table() {
